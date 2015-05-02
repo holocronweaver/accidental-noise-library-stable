@@ -128,7 +128,7 @@ namespace anl
 
                     default: break;
                 }
-                a.set(x,y,val);
+                a.set(static_cast<unsigned int>(x),static_cast<unsigned int>(y),val);
             }
         }
    }
@@ -191,7 +191,7 @@ namespace anl
                     } break;
                     default: break;
                 }
-                a.set(x,y,val);
+                a.set(static_cast<unsigned int>(x),static_cast<unsigned int>(y),val);
             }
         }
    }
@@ -458,7 +458,7 @@ namespace anl
 
                     default: break;
                 }
-                a.set(x,y,val);
+                a.set(static_cast<unsigned int>(x),static_cast<unsigned int>(y),val);
             }
         }
    }
@@ -522,7 +522,7 @@ namespace anl
                     } break;
                     default: break;
                 }
-                a.set(x,y,val);
+                a.set(static_cast<unsigned int>(x),static_cast<unsigned int>(y),val);
             }
         }
    }
